@@ -11,7 +11,7 @@ const LoggedOut = () => {
     return (
         <>
             <h1>Logged out comp...</h1>
-            <Button />
+            <Button onToggle={toggleLogIn}/>
         </>
     )
 }
